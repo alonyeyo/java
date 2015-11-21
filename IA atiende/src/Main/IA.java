@@ -12,6 +12,11 @@ public class IA {
 		v.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		
+		//otra ventana de otro color
+		Ventana2 v2 = new Ventana2();
+		
+		
+		
 
 	}
 	

@@ -1,4 +1,4 @@
-package Main;
+package testventana;
 
 import javax.swing.JFrame;
 
@@ -6,9 +6,10 @@ import javax.swing.JFrame;
 public class Ventana extends JFrame{
 	
 	public Ventana(){
-		System.out.println("Estoy ejecutando el constructor de ventana");
-		setSize(640, 480);
+		setSize(1500, 1500);
 		setContentPane(new Panel());
+		
+		
 	}
 
 }
