@@ -1,16 +1,20 @@
 package ejercicios;
 
+import javax.swing.JOptionPane;
+
 public class Ej6 {
 
 	public static void main(String[] args) {
-		int B = 0;
+		int B = Integer.parseInt(JOptionPane.showInputDialog("dame B... ¡¡¡pls!!!"));
 		
-		if(B<0){
-			System.out.println("negativo");
+		boolean deduccion = B<0;
+		
+		if(deduccion){
+			JOptionPane.showMessageDialog(null, "es negativo");
 		
 		}
 		else{
-			System.out.println("positivo");
+			JOptionPane.showMessageDialog(null, "es positivo ");
 		}
 
 	}
